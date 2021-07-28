@@ -1,0 +1,85 @@
+#buscador{
+    margin-top: 50px;
+    max-height: 50px;
+    max-width: 300px;
+    margin-left: 80%;
+}
+#buscador input{
+    border:2px solid #252f68;
+    border-radius: 10px;
+}
+#botagregar2{
+    background-color: #c55110;
+    min-width: 150px;
+    max-height: 50px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: white;
+    margin-left: 20px;
+
+}
+#botagregar2:hover{
+    background-color:white;
+    border:3px solid #c55110;
+    color: #c55110;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+#seccionprim2{
+    margin-top: 120px;
+    display: flex;
+}
+#titlevacu h1{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(13, 5, 43);
+    border-bottom: 3px solid rgb(4, 77, 90);
+    width: 270px;
+    margin-left: 430px;
+}
+
+#fechas input{
+    border:2px solid #252f68;
+    margin-left: 340px;
+    border-radius: 10px;
+    min-height: 35px;
+}
+#fechas{
+    margin-top: 25px;
+}
+#fechas input{
+    width: 250px;
+    height: 20px;
+}
+#tabvacu td:first-child {
+    width: 80px;
+    border: 1px solid #2CA3AB;
+    background-color:#cccecfef;
+    height: 50px;
+ }
+ #tabvacu td:nth-child(2) {
+    width: 60px;
+    border: 1px solid #2CA3AB;
+    background-color:#cccecfef;
+  }
+  #tabvacu td:nth-child(3) {
+    width: 200px;
+    border: 1px solid #2CA3AB;
+    background-color:#cccecfef;
+  }
+  #tabvacu td:nth-child(4) {
+    width: 90px;
+    border: 1px solid #2CA3AB;
+    background-color:#cccecfef;
+  }
+  #tabvacu td:nth-child(5) {
+    width: 110px;
+    border: 1px solid #2CA3AB;
+    background-color:#cccecfef;
+  }
+  #tabvacu td:last-child {
+    width: 150px;
+    border: 1px solid #2CA3AB;
+    background-color:#cccecfef;
+  }

@@ -1,0 +1,49 @@
+#buscador1{
+    width: 85%;
+    height: 100vh;
+}
+#pantalla{
+    background-color: rgba(237, 236, 235, 0.7);
+    height: 100%;
+}
+#pantalla h1{
+  padding-top: 10%;
+  padding-left: 30%;
+  color: #ca5714;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.guerreros{
+ z-index: -1;
+ position: absolute;
+ right: 5%;
+ bottom: 2%;
+ width: 500px;
+ transform: rotate(7deg);
+}
+#inpu{
+    margin-top: 15vh;
+    margin-left: 20vw;
+}
+#inpu p{
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+#inpu input{
+    border-bottom: 2px solid black;
+    background-color: transparent;
+}
+#documen{
+    width: 400px;
+    margin-left: 3%;
+}
+.franja2{
+    width: 80vw;
+ }
+#franjaazul{
+ background-color: teal;
+ margin-top: 40vh;
+ height: 20px;
+ }

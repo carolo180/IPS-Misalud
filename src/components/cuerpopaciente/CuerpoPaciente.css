@@ -1,0 +1,133 @@
+#botagregar{
+    background-color: #c55110;
+    min-width: 150px;
+    min-height: 40px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: white;
+    margin-left: 20px;
+
+}
+#botagregar:hover{
+    background-color:white;
+    border:3px solid #c55110;
+    color: #c55110;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+#seccionprim{
+    margin-top: 130px;
+}
+#bit{
+    display: flex;
+    margin-left: 150px;
+}
+#inpupac input{
+    border:2px solid #252f68;
+    margin-left: 1050px;
+    border-radius: 10px;
+    min-height: 35px;
+}
+#buscar{
+    background-color: rgb(226, 220, 214);
+    border-radius: 10px;
+    min-width: 45px;
+    min-height: 35px;
+    border: 2px solid rgb(13, 5, 43);
+    margin-left: 1px;
+}
+#buscar:hover{
+    background-color: rgb(167, 193, 243);
+}
+#buscar i{
+    font-size: 1.5rem;
+    }
+#titlepaci h1{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(13, 5, 43);
+    border-bottom: 3px solid rgb(4, 77, 90);
+    width: 210px;
+    margin-left: 42%;
+}
+/*tabla*/
+table{
+    min-width: 200px;
+    max-width: 1500px;
+    max-height: 500px;
+    min-height: 500px;
+    width: 100%;
+    margin-left: 7%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+ th {
+    border: 3px solid #2CA3AB;
+    height: 50px;
+    background-color: #1d1b45;
+    color: white;
+    text-align: center;
+}
+
+table td:first-child {
+    width: 80px;
+    border: 1px solid #2CA3AB;
+    background-color:#cccecfef;
+    height: 50px;
+ }
+  table td:nth-child(2) {
+    width: 60px;
+    border: 1px solid #2CA3AB;
+    background-color:#cccecfef;
+  }
+  table td:nth-child(3) {
+    width: 200px;
+    border: 1px solid #2CA3AB;
+    background-color:#cccecfef;
+  }
+  table td:nth-child(4) {
+    width: 100px;
+    border: 1px solid #2CA3AB;
+    background-color:#cccecfef;
+  }
+  table td:last-child {
+    width: 150px;
+    border: 1px solid #2CA3AB;
+    background-color:#cccecfef;
+  }
+  #edit{
+      background-color: #2CA3AB;
+      color: black;
+      min-width: 130px;
+      min-height: 40px;
+      margin-left: 40px;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 1.1rem;
+  }
+  #edit:hover{
+      background-color: beige;
+      border: 3px solid #2ca3ab;
+      color: #2CA3AB;
+      transition-timing-function: ease;
+      font-size: 1.2rem;
+  }
+  #elim{
+    background-color: #a40101;
+    color: rgb(243, 234, 234);
+    min-width: 130px;
+    min-height: 40px;
+    margin-left: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  #elim:hover{
+      background-color: white;
+      border: 3px solid #a40101;
+      color: #a40101;
+      font-size: 1.2rem;
+  }
+
+  

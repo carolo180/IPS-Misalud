@@ -1,0 +1,80 @@
+.container{
+    padding-left: 0;
+}
+#principal{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+   }
+#menulatera{
+    background-color: #161624;
+    width: 22%;
+    height: 100vh;
+}
+.logop{
+    padding-top: 35%;
+    padding-left: 13%;
+    width: 1000;
+}
+#buscador{
+    width: 85%;
+    height: 100vh;
+}
+#pantalla{
+    background-color: rgba(237, 236, 235, 0.7);
+    height: 100%;
+}
+#pantalla h1{
+  padding-top: 10%;
+  padding-left: 30%;
+  color: #ca5714;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.guerreros{
+ z-index: -1;
+ position: absolute;
+ right: 5%;
+ bottom: 2%;
+ width: 500px;
+ transform: rotate(7deg);
+}
+#botonmenu{
+    margin-top: 130px;
+}
+#botonmenu button{
+    background-color:rgba(255, 255, 255, 0.829);
+    display: list-item;
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    border: 4px solid #ca5714;
+    border-radius: 10px;
+}
+#inpu{
+    margin-top: 15vh;
+    margin-left: 20vw;
+}
+#inpu p{
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+#inpu input{
+    border-bottom: 2px solid black;
+    background-color: transparent;
+}
+#documen{
+    width: 400px;
+    margin-left: 3%;
+}
+.franja2{
+    width: 80vw;
+ }
+#franjaazul{
+ background-color: teal;
+ margin-top: 40vh;
+ height: 20px;
+ }

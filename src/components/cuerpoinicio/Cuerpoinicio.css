@@ -1,0 +1,323 @@
+#cuerpo{
+    margin-top: 30px;
+}
+  #banner{
+    background-image: url(../../utils/imagenes/medico.png);
+    margin: auto;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    min-height: 550px;
+   background-size:cover;
+   }
+   #parrafobanner{
+     padding-top: 150px;
+     padding-left: 190px;
+   }
+   #parrafobanner h2{
+       color: #de5b12;
+       font-size: 3rem;
+       font-weight: bold;
+       padding-left: 30px;
+   }
+   #parrafobanner h1{
+       font-size: 4rem;
+       font-weight: bolder;
+       padding-left: 200px;
+   }
+  .franja{
+      width: 100%;
+      max-height: 70px;
+  }
+  #ingreso{
+      background-color: #0B669B;
+      color: white;
+      width: 170px;
+      height: 50px;
+      border: 2px solid #0B669B;
+      border-radius: 50px;
+      margin-left: 260px;
+      margin-top: 20px;
+   }
+   #ingreso p{
+    font-size: 1.3rem;
+    padding-top: 5px;
+    font-weight: 600;
+   }
+  
+   #caution{
+    background-image: url(../../utils/imagenes/covid.jpeg);
+    min-height: 530px;
+   }
+   #transparencia{
+       background-color:rgba(244, 238, 236,0.9);
+       min-height: 530px;
+       display: flex;
+   }
+   #sintomas{
+       display: flex;
+       align-items: center;
+       margin-left: 140px;
+       padding-top: 50px;
+   }
+   #sintomas i{
+       color: #a40101;
+   }
+  #sintomas h2{
+      margin-left: 20px;
+      color: #0a5986;
+      font-weight: bold;
+  }
+  #sintomas2{
+      margin-left: 200px;
+      margin-top: 40px;
+      
+  }
+  #sintomas2 i{
+    color: #a40101;
+    font-size: 2rem;
+    margin-right: 15px;
+}
+  #sintomas2 li{
+     list-style: none;
+     margin-top: 20px;
+     font-size: 1.5rem;
+     font-weight: 500;
+     display: flex;
+   }
+  #sintomas3{
+     float: right;
+     margin-left:350px;
+     padding-top: 50px;
+  }
+  #cjagrande{
+      display: flex;
+  }
+  #qhacer{
+      display: flex;
+  }
+  #qhacer i{
+    color: #a40101;
+    font-size: 2.9rem;
+  }
+  #qhacer h2{
+    color: #0a5986;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  #qhacerparra{
+      max-width: 400px;
+      margin-top: 20px;
+      font-size: 1.5rem;
+      font-weight: 500;
+      text-align: justify;
+      margin-left: 50px;
+  }
+  #qhacerparra p{
+      padding-top: 20px;
+  }
+  #qhacerparra a{
+      padding-bottom: 20px;
+  }
+  .oms{
+      width: 120px;
+      margin-left: 120px;
+  }
+  #curso{
+      font-size: 1.8rem;
+      font-weight: 700;
+  }
+  #sintomas3 a{
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #0a5986;
+    }
+   #macordeon{
+        background-color: #464646;
+        }
+    #menu1 p{
+        overflow: hidden;
+        max-height: 0;
+        text-align: justify;
+        background-color: #eff1f8;
+        color: black;
+        font-size: 1.3rem;
+        transition: .5s linear 0s;
+    }
+    #menu1 a{
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        background-color: #161624;
+        color: white;
+        font-size: 1.4rem;
+    }
+    #menu1:hover p{
+        min-height: 300px;
+        padding: 20px;
+    }
+    #menu2 p{
+        overflow: hidden;
+        max-height: 0;
+        text-align: justify;
+        background-color: #eff1f8;
+        color: black;
+        font-size: 1.3rem;
+        transition: .5s linear 0s;
+    }
+    #menu2 a{
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        padding: 10px;
+        background-color: #161624;
+        color: white;
+        font-size: 1.4rem;
+    }
+    #menu2:hover p{
+        min-height: 300px;
+        padding: 20px;
+    }
+    #menu3 p{
+        overflow: hidden;
+        max-height: 0;
+        text-align: justify;
+        background-color: #eff1f8;
+        color: black;
+        font-size: 1.3rem;    
+        transition: .5s linear 0s;   
+    }
+    #menu3 a{
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        padding: 10px;
+        background-color: #161624;
+        color: white;
+        font-size: 1.4rem;
+    }
+    #menu3:hover p{
+        min-height: 300px;
+        padding: 20px;
+    }
+    #menu4 p{
+        overflow: hidden;
+        max-height: 0;
+        text-align: justify;
+        background-color: #eff1f8;
+        color: black;
+        font-size: 1.3rem;       
+        transition: .5s linear 0s;
+    }
+    #menu4 a{
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        padding: 10px;
+        background-color: #161624;
+        color: white;
+        font-size: 1.4rem;
+    }
+    #menu4:hover p{
+        min-height: 400px;
+        padding: 20px;
+    }
+    #menu5 p{
+        overflow: hidden;
+        max-height: 0;
+        text-align: justify;
+        background-color: #eff1f8;
+        color: black;
+        font-size: 1.3rem;      
+        transition: .5s linear 0s;
+    }
+    #menu5 a{
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        padding: 10px;
+        background-color: #161624;
+        color: white;
+        font-size: 1.4rem;
+    }
+    #menu5:hover p{
+        min-height: 300px;
+        padding: 20px;
+    }
+    @media screen and (max-width: 1024px) {
+        #banner{
+            min-width: 850px;
+            background-size:contain;
+            margin-right: 14%;
+            margin-left: 1%;
+            min-height: 300px;
+        }
+        #parrafobanner{
+            width: 500px;
+            height: 200px;
+            padding-top: 0;
+            padding-left: 0;
+        }
+        #parrafobanner h2{
+            font-size: 1.8rem;
+            font-weight: bolder;
+            padding-top: 70px;       
+        }
+        #parrafobanner h1{
+            font-size: 2rem;
+            font-weight: bolder;
+            padding-left: 170px;
+        }
+        #ingreso{
+            background-color: #0B669B;
+            color: white;
+            width: 135px;
+            height: 40px;
+            border: 2px solid #0B669B;
+            border-radius: 50px;
+            margin-left: 150px;
+            margin-top: 20px;
+        }
+        #ingreso p{
+            font-size: 1.1rem;
+            padding-top: 5px;
+            font-weight: 600;
+        }
+        .franja{
+            max-width: 850px;
+            max-height: 70px;
+            margin-left: 1%;
+        }
+        #caution{
+            max-width: 850px;
+            margin-left: 1%;
+        }
+        #sintomas3{
+            margin-left:40px;
+            padding-top: 50px;
+         }
+         #sintomas{
+             margin-left: 10px;
+         }
+         #sintomas2{
+            margin-left: 10px;
+        }
+        #qhacerparra{
+            max-width: 250px;
+            margin-top: 20px;
+            font-size: 1.5rem;
+            font-weight: 500;
+            text-align: justify;
+            margin-right: 10%;
+        }
+       #macordeon{
+          max-width: 850px;
+          margin-left: 1%;
+       }
+       .oms{
+           margin-left: 10px;
+       }
+       .qhacerparra a{
+           padding-right: 50px;
+
+       }
+    }

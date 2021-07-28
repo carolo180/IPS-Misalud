@@ -1,0 +1,149 @@
+
+#blacksect{
+    background-color: #212529;
+    width: 100%;
+    min-height: 25px;
+}
+#contact{
+    margin-left: 33%;
+    display: flex;
+    margin-top: 50px;
+    max-height: 30px;
+}
+#contact i{
+    font-size: 0.8rem;
+    text-align: center;
+    color: white;
+    background-color: #c55110;
+    border-radius: 100px;
+    width: 25px;
+    height: 25px;
+    padding-top: 6px;
+    box-shadow: 3px 4px 9px rgb(148, 146, 146);       
+}
+#contact p{
+    margin-left: 40px;
+    color: #838383;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
+#picono {
+    display: flex;
+ }
+ #lugar{
+    margin-left: 55%;
+     color: #838383;
+     font-family: "Poppins", Sans-serif;
+     font-size: 1.2rem;
+     font-weight: normal;
+  }
+ #sicono{
+     margin-left: 100px;
+     display: flex;
+     height: 50px;
+     width: 450px;
+ }
+ #sicono i{
+     font-size: 1rem;
+     padding-top: 5px;
+ }
+#principal{
+    margin-left: 7%;
+}
+#principal i{
+   font-size: 4rem;
+   color: #c55110;
+   margin-left:30px;
+   display: inline-flex;
+}
+.logo{
+   width: 300px;
+}
+.linea{
+   width: 1100px;
+   margin-left: 80px;
+}
+#ingreso1{
+    background-color: #0e6ea7;
+    min-width: 170px;
+    width: 100%;
+    min-height: 45px;
+    height: 100%;
+    border-radius: 50px;
+    color: antiquewhite;
+    font-weight: 900;
+    font-size: 1.2rem;
+    margin-left: 90%;
+    font-family: "Poppins", Sans-serif;
+}
+#ingreso1:hover{
+    background-color: #64c0f5;
+    min-width: 170px;
+    width: 100%;
+    min-height: 45px;
+    height: 100%;
+    border-radius: 50px;
+    color: rgb(65, 64, 63);
+    font-weight: 900;
+    font-size: 1.2rem;
+    margin-left: 90%;
+}
+#ingreso1 i{
+    box-shadow: none;
+    font-size: 1.2rem;
+    background: none;
+    min-width: 100px;
+}
+#ingreso1 i:hover{
+   color: rgb(65, 64, 63);
+}
+@media screen and (max-width: 1024px) {
+    header{
+        max-width: 850px;
+     }
+    #contact{
+       margin-left: 10%;
+    }
+    #picono{
+        min-width: 200px;
+    }
+    #principal{
+        margin-top: 80px;
+    }
+    .linea{
+        width: 650px;
+        height: 30px;
+    }
+    #ingreso1{
+        min-width: 120px;
+        min-height: 70px;
+        margin-left: 2px;
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    header{
+        max-width: 1200px;
+     }
+    #contact{
+       margin-left: 20%;
+    }
+    #picono{
+        min-width: 200px;
+    }
+    #principal{
+        margin-top: 80px;
+    }
+    .linea{
+        width: 650px;
+        height: 30px;
+    }
+    #ingreso1{
+        min-width: 180px;
+        min-height: 70px;
+        margin-left: 2px;
+        font-size: 1rem;
+    }
+}

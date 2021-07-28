@@ -1,0 +1,14 @@
+footer{
+    background-color: #010102;
+    color: white;
+    min-height: 5vh;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+@media screen and (max-width: 1024px) {
+    footer{
+        max-width: 850px;
+        margin-left: 1%;
+    }
+}
