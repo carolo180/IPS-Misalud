@@ -25,7 +25,7 @@
     font-size: 1.1rem;
 }
 
-.ingresa h4{
+#slogan{
     color: black;
     text-align: center;
     padding: 20px;
@@ -116,6 +116,12 @@ form{
 
 .form-check a:hover{
     color: #2CA3AB
+}
+input[type=email]:focus,input[type=password]:focus{
+	outline: none;
+	margin-top: 10px;
+	padding-right: 30px;
+	box-shadow: 0px 0px 18px #fa2b06; 
 }
 @media screen and (max-width: 800px){
     .inputs label {

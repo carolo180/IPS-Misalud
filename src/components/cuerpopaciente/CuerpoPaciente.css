@@ -1,13 +1,12 @@
 #botagregar{
     background-color: #c55110;
     min-width: 150px;
-    min-height: 40px;
+    min-height: 45px;
     border-radius: 10px;
     font-weight: 700;
     font-size: 1.1rem;
     color: white;
-    margin-left: 20px;
-
+    margin-left: 2%;
 }
 #botagregar:hover{
     background-color:white;
@@ -15,13 +14,16 @@
     color: #c55110;
     font-size: 1.3rem;
     font-weight: bold;
+    transition-property:initial;   
+    transition-duration: 1s;
 }
 #seccionprim{
     margin-top: 130px;
+    margin-bottom: 80px;
 }
 #bit{
     display: flex;
-    margin-left: 150px;
+    margin-left: 135px;
 }
 #inpupac input{
     border:2px solid #252f68;
@@ -58,7 +60,7 @@ table{
     max-height: 500px;
     min-height: 500px;
     width: 100%;
-    margin-left: 7%;
+    margin-left: 8%;
     margin-top: 50px;
     margin-bottom: 100px;
 }
@@ -99,7 +101,7 @@ table td:first-child {
   #edit{
       background-color: #2CA3AB;
       color: black;
-      min-width: 130px;
+      width: 35%;
       min-height: 40px;
       margin-left: 40px;
       border-radius: 5px;
@@ -110,17 +112,19 @@ table td:first-child {
       background-color: beige;
       border: 3px solid #2ca3ab;
       color: #2CA3AB;
-      transition-timing-function: ease;
+      transition-property:initial;   
+      transition-duration: 1s;
       font-size: 1.2rem;
   }
   #elim{
     background-color: #a40101;
     color: rgb(243, 234, 234);
-    min-width: 130px;
+    width: 35%;
     min-height: 40px;
+    max-height: 40px;
     margin-left: 25px;
     border-radius: 5px;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 1.1rem;
   }
   #elim:hover{
@@ -128,6 +132,35 @@ table td:first-child {
       border: 3px solid #a40101;
       color: #a40101;
       font-size: 1.2rem;
+      transition-property:initial;   
+      transition-duration: 1s;
   }
+  @media screen and (min-width: 320px) and (max-width: 1040px) {
+    #inpupac input{
+        margin-left: 480px;
+    }
+    #bit{
+        margin-left: 80px;
+    }
+    table{
+        margin-left: 0%;
+        padding: 5px;
+        
+    }
+    #tabla{
+        max-width: 900px;
+        margin-left: 5%;
+    }
+    #edit{
+        margin-left: 5px;
+        margin-top: 10px;
+        width: 40%;
+    }
+   #elim{
+    width: 50%;
+    margin-left: 10px;
+   }
+} 
+  
 
   

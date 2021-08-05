@@ -1,0 +1,175 @@
+.borde_externo{
+    margin: 20px;
+    padding: 20px;
+    border: 0.5px solid rgb(47, 45, 45);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #C4c4c4;
+}
+.ninos img{
+    height: 50px;
+    width: 100%;
+}
+
+.botones_superiores{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botones_superiores button{
+    color: white;
+    background-color:  #C55110;
+    border-color:  #C55110;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+.botones_superiores button:hover{
+    background-color: #2CA3AB;
+    border: 3px solid #2CA3AB;
+}
+
+.input_vacunacion{
+    border-radius: 5px;
+    text-align: center;
+    width: 25vw;
+    margin-bottom: 20px;
+    border: 2px solid #2CA3AB;
+    outline: none;
+}
+
+.input_informacion:hover{
+    border: 3px solid #C55110;
+}
+.input_informacion:focus{
+    background-color: rgba(44, 163, 171, 0.2);
+  }
+
+#select_vacu:hover{
+    border: 3px solid #C55110;
+}
+#select_vacu:focus{
+    background-color: rgba(44, 163, 171, 0.2);
+  }
+
+#select_vacu{
+    padding: 6px;
+    width: 25vw;
+    border-radius: 5px;
+    border: 2px solid #2CA3AB;
+    color: #C4c4c4;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+.select_y_doc{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 0;
+}
+
+.select_doc{
+    width: 3vw;
+    border-radius: 5px;
+    border: 2px solid #2CA3AB;
+    color: #C4c4c4;
+    margin-bottom: 20px;
+    margin-right: 15px;
+
+}
+.select_doc:hover{
+    border: 3px solid #C55110;
+}
+.select_doc:focus{
+    background-color: rgba(44, 163, 171, 0.2);
+}
+
+#input_info{
+    width: 21vw;
+    border-radius: 5px;
+}
+
+.borde_externo_vacunacion h5{
+    background-image: url(../utils/imagenes/vacuna.png);
+    background-position: 200px center;
+    background-repeat: no-repeat;
+    background-color: #2CA3AB;
+    padding: 10px;
+    text-align: center;
+    background-size: 25px;
+    color: #FFFFFF;
+}
+
+.registro_paciente {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.dosis{
+    margin-left: 50px;
+    margin-right: 150px;
+    padding: 20px;
+}
+
+#datos-s{
+    margin-left: 50px;
+    padding: 20px;
+    margin-right: 120px;
+}
+
+.edad{
+    margin-left: 250px;
+    margin-right: 150px;
+    padding: 20px;
+}
+
+.fecha_registro{
+    margin: 10px;
+}
+
+
+.caja_fecha{
+    margin-left: 100px;
+}
+
+.caja_registro{
+    margin-right: 100px;
+}
+
+.nro_registro{
+    margin: 10px;
+}
+
+.label_superiores{
+    margin-left: 50px;
+}
+
+.registro_fecha{
+    background-color: #FFFFFF;
+}
+
+.estilo_textarea {
+    max-width: 800px;
+    height: 80px;
+    width: 100%;
+    border: 1px dotted #2CA3AB;
+    margin: auto auto;
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+    padding: 20px;
+}

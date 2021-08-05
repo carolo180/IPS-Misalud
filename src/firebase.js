@@ -1,4 +1,6 @@
-import firebase from "firebase/app"
+import firebase from 'firebase/app'
+import 'firebase/firestore'
+
 var firebaseConfig = {
     apiKey: "AIzaSyArz0FXPEGYi3AfcAg9H33bYyl1zphVmTU",
     authDomain: "forja-vacunacion-8dc69.firebaseapp.com",
@@ -10,5 +12,6 @@ var firebaseConfig = {
     measurementId: "G-LB7K3RS6ME"
   };
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
+  const fb = firebase.initializeApp(firebaseConfig);
+  export const db = fb.firestore();
+  

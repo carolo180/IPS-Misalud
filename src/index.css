@@ -9,9 +9,11 @@
 body {
    width: 100%;
    font-family: 'Poppins', sans-serif;
+   height: 100%;
 }
 
 #root{
   width: 100%;
   margin: 0;
+  height: 100%;
 }

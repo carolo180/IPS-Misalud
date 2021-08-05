@@ -1,13 +1,13 @@
 #cuerpo{
     margin-top: 30px;
+    width: 100%;
 }
   #banner{
     background-image: url(../../utils/imagenes/medico.png);
-    margin: auto;
-    padding-left: 50px;
-    background-repeat: no-repeat;
+    background-repeat:repeat-y;
     min-height: 550px;
-   background-size:cover;
+    background-size:cover;
+    width: 100%;
    }
    #parrafobanner{
      padding-top: 150px;
@@ -29,29 +29,41 @@
       max-height: 70px;
   }
   #ingreso{
-      background-color: #0B669B;
-      color: white;
-      width: 170px;
-      height: 50px;
-      border: 2px solid #0B669B;
-      border-radius: 50px;
-      margin-left: 260px;
-      margin-top: 20px;
+    background-color: #0e5883;
+    max-width: 180px;
+    width: 100%;
+    max-height: 50px;
+    height: 100%;
+    border-radius: 50px;
+    font-family: "Poppins", Sans-serif;
+    margin-left: 250px;
    }
    #ingreso p{
     font-size: 1.3rem;
-    padding-top: 5px;
-    font-weight: 600;
+    padding-top: 8px;
+    font-weight: 700;
+    color: white;;
    }
-  
+   #ingreso:hover{
+    background-color: #2da9f1;
+    border: 2px solid #0e5883;
+    transition-property:initial;   
+    transition-duration: 1s;    
+   }
+   #ingreso p:hover{
+    color:#062131;
+    font-weight: 900;
+   }
    #caution{
     background-image: url(../../utils/imagenes/covid.jpeg);
     min-height: 530px;
+    width: 100%;
    }
    #transparencia{
        background-color:rgba(244, 238, 236,0.9);
        min-height: 530px;
        display: flex;
+       width: 100%;
    }
    #sintomas{
        display: flex;
@@ -86,7 +98,7 @@
    }
   #sintomas3{
      float: right;
-     margin-left:350px;
+     margin-left:250px;
      padding-top: 50px;
   }
   #cjagrande{
@@ -105,12 +117,11 @@
     margin-left: 20px;
   }
   #qhacerparra{
-      max-width: 400px;
+      max-width: 600px;
       margin-top: 20px;
       font-size: 1.5rem;
       font-weight: 500;
       text-align: justify;
-      margin-left: 50px;
   }
   #qhacerparra p{
       padding-top: 20px;
@@ -119,12 +130,13 @@
       padding-bottom: 20px;
   }
   .oms{
-      width: 120px;
-      margin-left: 120px;
+      width: 150px;
+      margin-left: 160px;
   }
-  #curso{
+  #qhacerparra a{
       font-size: 1.8rem;
       font-weight: 700;
+      margin-left: 10%;
   }
   #sintomas3 a{
       font-size: 1.4rem;
@@ -133,6 +145,7 @@
     }
    #macordeon{
         background-color: #464646;
+        width: 100%;
         }
     #menu1 p{
         overflow: hidden;
@@ -244,12 +257,19 @@
         padding: 20px;
     }
     @media screen and (max-width: 1024px) {
+        #todoini{
+            width: 100%;
+         }
+        #cuerpo{
+            width: 100%;
+        }
         #banner{
-            min-width: 850px;
-            background-size:contain;
-            margin-right: 14%;
-            margin-left: 1%;
+            width: 100%;
+            background-size:cover;
             min-height: 300px;
+            background-repeat:repeat;
+            padding-left: 10px;
+            
         }
         #parrafobanner{
             width: 500px;
@@ -270,11 +290,12 @@
         #ingreso{
             background-color: #0B669B;
             color: white;
-            width: 135px;
+            min-width: 135px;
+            max-width: 150px;
             height: 40px;
             border: 2px solid #0B669B;
             border-radius: 50px;
-            margin-left: 150px;
+            margin-left: 32%;
             margin-top: 20px;
         }
         #ingreso p{
@@ -283,17 +304,19 @@
             font-weight: 600;
         }
         .franja{
-            max-width: 850px;
-            max-height: 70px;
-            margin-left: 1%;
+           width: 100%;
+           max-height: 70px;
         }
         #caution{
-            max-width: 850px;
-            margin-left: 1%;
+           width: 100%;
+        }
+        #sint{
+            width: 50%;
         }
         #sintomas3{
-            margin-left:40px;
+            margin-left:10px;
             padding-top: 50px;
+            width: 50%;
          }
          #sintomas{
              margin-left: 10px;
@@ -301,23 +324,107 @@
          #sintomas2{
             margin-left: 10px;
         }
+        #sintomas2 ul{
+            margin-left: 0px;
+        }
+        
         #qhacerparra{
-            max-width: 250px;
+           max-width: 500px;
             margin-top: 20px;
             font-size: 1.5rem;
             font-weight: 500;
             text-align: justify;
-            margin-right: 10%;
+            padding-right: 15px;
         }
        #macordeon{
-          max-width: 850px;
-          margin-left: 1%;
-       }
+          width: 100%;
+        }
        .oms{
-           margin-left: 10px;
+           margin-left: 30%;
        }
-       .qhacerparra a{
-           padding-right: 50px;
+       #qhacerparra a{
+           margin-left: 0;
+        }
+    }
 
+    @media screen and (min-width: 1025px) and (max-width: 1440px) {
+        #todoini{
+            width: 100%;
+        }
+        #cuerpo{
+            width: 100%;
+            background-size:contain;
+            min-height: 300px;
+        }
+        #banner{
+           width: 100%;
+            min-height: 400px;
+            background-size:cover;
+            max-width: 1500px;
+           padding-left: 10%;
+        }
+        .franja{
+            width: 100%;
+            max-height: 70px;
+        }
+        #parrafobanner{
+            width: 700px;
+            height: 300px;
+            padding-top: 0;
+            padding-left: 0;
+        }
+        #parrafobanner h2{
+            font-size: 2.5rem;
+            font-weight: bolder;
+            padding-top: 90px;   
+            margin-left: 30px;    
+        }
+        #parrafobanner h1{
+            font-size: 2.5rem;
+            font-weight: bolder;
+            padding-left: 230px;
+        }
+        #caution{
+            width: 100%;
+        }
+        #ingreso{
+            margin-left: 33%;
+            margin-top: 20px;
+        }
+        #sint{
+            width: 50%;
+            margin-left: 40px;
+        }
+        #sintomas3{
+            margin-left:80px;
+            padding-top: 50px;
+            width: 50%;
+         }
+         #sintomas{
+             margin-left: 10px;
+         }
+         #sintomas2{
+            margin-left: 10px;
+        }
+        #sintomas2 ul{
+            margin-left: 0px;
+        }
+        
+        #qhacerparra{
+           max-width: 500px;
+            margin-top: 20px;
+            font-size: 1.5rem;
+            font-weight: 500;
+            text-align: justify;
+            padding-right: 15px;
+        }
+       #macordeon{
+          width: 100%;
+        }
+       .oms{
+           margin-left: 30%;
        }
+       #qhacerparra a{
+           margin-left: 0;
+        }
     }

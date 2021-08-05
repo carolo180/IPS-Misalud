@@ -1,0 +1,235 @@
+.formulario_nuevo{
+    border: 1px solid rgb(47, 45, 45);
+    padding: 50px;
+}
+
+.formulario_nuevo{
+    margin: 20px;
+}
+
+.borde_externo{
+    padding: 20px;
+    border: 0.5px solid rgb(47, 45, 45);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #C4c4c4;
+}
+
+.borde_externo h5{
+    background-image: url(../utils/imagenes/usuario_nuevo.png);
+    background-position: 200px center;
+    background-repeat: no-repeat;
+    background-color: #2CA3AB;
+    padding: 10px;
+    text-align: center;
+    background-size: 25px;
+    color: #FFFFFF;
+
+}
+
+#tituform{
+    text-align: center;
+    padding: 5px;
+    background-color: #1D1B45;
+    color: #FFFFFF;
+    border: 2px solid #2CA3AB;
+    border-radius: 10px;
+}
+
+.input_informacion{
+    border-radius: 5px;
+    text-align: center;
+    width: 25vw;
+    margin-bottom: 20px;
+    border: 2px solid #2CA3AB;
+    outline: none;
+}
+
+.input_informacion:hover{
+    border: 3px solid #C55110;
+}
+.input_informacion:focus{
+    background-color: rgba(44, 163, 171, 0.2);
+  }
+
+#NOMBRES:hover{
+    border: 3px solid #C55110;
+}
+#NOMBRES:focus{
+    background-color: rgba(44, 163, 171, 0.2);
+  }
+
+#NOMBRES{
+    padding: 6px;
+    width: 25vw;
+    border-radius: 10px;
+    border: 2px solid #2CA3AB;
+    color: #C4c4c4;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+#labformu{
+    color: black;
+    text-align: center;
+}
+
+
+.Informacion_identificacion{
+    display: flex;
+    background-color: #c4c4c4;
+    color: #FFFFFF;
+    border: 1px solid rgb(47, 45, 45);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 30px;
+}
+
+.Informacion_contacto{
+    display: flex;
+    background-color: #c4c4c4;
+    color: #FFFFFF;
+    border: 1px solid rgb(47, 45, 45);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 30px;
+}
+
+.Informacion_salud{
+    display: block;
+    background-color: #c4c4c4;
+    color: #FFFFFF;
+    border: 1px solid rgb(47, 45, 45);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 30px;
+}
+
+.Informacion_salud select{
+    width: 20vw;
+
+}
+
+#input_prueba{
+    margin: 20px;
+}
+
+.pruebaf{
+    margin-left: 350px;
+}
+
+#datos-p{
+    margin-left: 50px;
+    padding: 20px;
+    margin-right: 70px;
+}
+.tipo{
+    margin-right: 50px;
+    margin-left: 150px;
+    padding: 20px;
+}
+
+#i-contacto{
+    margin-left: 50px;
+    margin-right: 150px;
+    padding: 20px;
+}
+
+#salud{
+    display: flex;
+}
+
+.contactar{
+    margin-left: 50px;
+    margin-right: 150px;
+    padding: 20px;
+}
+
+
+.borde_externo h5{
+    background-image: url(../utils/imagenes/man-user.svg);
+    background-position: 200px center;
+    background-repeat: no-repeat;
+    background-color: #2CA3AB;
+    padding: 10px;
+    text-align: center;
+    background-size: 25px;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.boton .btn2{
+    background-color:  #C55110;
+    border-color:  #C55110;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+.boton .btn2:hover{
+    background-color: #2CA3AB;
+    border: 3px solid #2CA3AB;
+}
+
+.boton{
+    margin: auto;
+}
+
+#NOMBRES{
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+#contactof{
+    background-image: url(../utils/imagenes/geo.svg);
+    background-position: 200px center;
+    background-repeat: no-repeat;
+    background-color: #2CA3AB;
+    padding: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    background-size: 25px;
+    border-radius: 10px;
+}
+#estado-de-salud{
+    background-image: url(../utils/imagenes/latido-del-corazon.svg);
+    background-position: 200px center;
+    background-repeat: no-repeat;
+    background-color: #2CA3AB;
+    padding: 10px;
+    text-align: center;
+    background-size: 25px;
+    border-radius: 10px;
+}
+
+#estado-de-salud{
+    color: #FFFFFF;
+}
+
+input #input_prueba{
+    padding: 20px;
+}
+
+#footerf{
+       background-color:#212529;
+        height: 50px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 20px;
+        padding: 15px;
+}
+#franja_logo{
+    background-color:#212529;
+    height: 100px;
+}
+#franja_logo img{
+    display: block;
+    width: 250px;
+    margin: auto;
+    padding: 20px;
+}

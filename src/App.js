@@ -4,22 +4,26 @@ import Principal from './pages/Principal'
 import Login from './components/login/Login'
 import Pacientes from './pages/Pacientes'
 import Vacunas from './pages/Vacunas'
+import FormularioVacunacion from './pages/Formuvacuna'
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
   Redirect,
   
 } from "react-router-dom";
+import AddData from './pages/Adddata';
 
 function App() {
   return (
     <div className="container">
         <Router>
          <div>
-           <switch>
+           <Switch>
               
            <Route exact path="/" render={() =>(<Redirect to="/inicio" />)}>
               <Inicio />
@@ -45,11 +49,21 @@ function App() {
              <Vacunas />
             </Route>
 
-            
-         
-      
-          </switch>
+            <Route  path="/formuvacuna" >
+             <FormularioVacunacion />
+            </Route>
+
+            <Route  path="/formunuevo" >
+             <AddData />
+            </Route>
+
+            <Route  path="/formunuevo/:id" >
+             <AddData />
+            </Route>
+                
+          </Switch>
         </div>
+        <ToastContainer />
       
      
       </Router>

@@ -1,4 +1,3 @@
-
 #blacksect{
     background-color: #212529;
     width: 100%;
@@ -10,7 +9,7 @@
     margin-top: 50px;
     max-height: 30px;
 }
-#contact i{
+#picono i{
     font-size: 0.8rem;
     text-align: center;
     color: white;
@@ -21,16 +20,15 @@
     padding-top: 6px;
     box-shadow: 3px 4px 9px rgb(148, 146, 146);       
 }
-#contact p{
+ #picono {
+    display: flex;
+ }
+ #picono p {
     margin-left: 40px;
     color: #838383;
     font-family: "Poppins", Sans-serif;
     font-size: 1.2rem;
     font-weight: 600;
-    
-}
-#picono {
-    display: flex;
  }
  #lugar{
     margin-left: 55%;
@@ -43,11 +41,27 @@
      margin-left: 100px;
      display: flex;
      height: 50px;
-     width: 450px;
+     width: 400px;
  }
+ #sicono p{
+    margin-left: 40px;
+    color: #838383;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
  #sicono i{
      font-size: 1rem;
      padding-top: 5px;
+     font-size: 0.8rem;
+     text-align: center;
+     color: white;
+     background-color: #c55110;
+     border-radius: 100px;
+     width: 25px;
+     height: 25px;
+     padding-top: 6px;
+     box-shadow: 3px 4px 9px rgb(148, 146, 146);  
  }
 #principal{
     margin-left: 7%;
@@ -62,46 +76,39 @@
    width: 300px;
 }
 .linea{
-   width: 1100px;
+   width: 1050px;
    margin-left: 80px;
 }
 #ingreso1{
-    background-color: #0e6ea7;
-    min-width: 170px;
+    background-color: #0e5883;
+    max-width: 180px;
     width: 100%;
-    min-height: 45px;
+    min-height: 47px;
     height: 100%;
     border-radius: 50px;
-    color: antiquewhite;
-    font-weight: 900;
-    font-size: 1.2rem;
-    margin-left: 90%;
     font-family: "Poppins", Sans-serif;
-}
-#ingreso1:hover{
-    background-color: #64c0f5;
-    min-width: 170px;
-    width: 100%;
-    min-height: 45px;
-    height: 100%;
-    border-radius: 50px;
-    color: rgb(65, 64, 63);
+    margin-left: 180px;
+ }
+ #ingreso1 p{
+    font-size: 1.3rem;
+    padding-top: 8px;
+    font-weight: 700;
+    color: white;;
+ }
+ #ingreso1:hover{
+    background-color: #2da9f1;
+    border: 2px solid #0e5883;
+    transition-property:initial;   
+    transition-duration: 1s;
+   }
+ #ingreso1 p:hover{
+    color:#062131;
     font-weight: 900;
-    font-size: 1.2rem;
-    margin-left: 90%;
-}
-#ingreso1 i{
-    box-shadow: none;
-    font-size: 1.2rem;
-    background: none;
-    min-width: 100px;
-}
-#ingreso1 i:hover{
-   color: rgb(65, 64, 63);
-}
+   }
+
 @media screen and (max-width: 1024px) {
     header{
-        max-width: 850px;
+        width: 100%;
      }
     #contact{
        margin-left: 10%;
@@ -117,15 +124,18 @@
         height: 30px;
     }
     #ingreso1{
-        min-width: 120px;
-        min-height: 70px;
-        margin-left: 2px;
-        font-size: 1rem;
+        min-width: 140px;
+        min-height: 35px;
+        margin-left: 1px;
+        margin-top: 25px;
+    }
+    #ingreso1 p{
+       font-size: 0.9rem;
     }
 }
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
     header{
-        max-width: 1200px;
+        width: 100%;
      }
     #contact{
        margin-left: 20%;
@@ -137,12 +147,12 @@
         margin-top: 80px;
     }
     .linea{
-        width: 650px;
+        width: 600px;
         height: 30px;
     }
     #ingreso1{
         min-width: 180px;
-        min-height: 70px;
+        max-height: 70px;
         margin-left: 2px;
         font-size: 1rem;
     }
