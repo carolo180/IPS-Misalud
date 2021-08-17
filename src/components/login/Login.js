@@ -3,6 +3,7 @@ import logo from  './logoforja.png';
 import '../../App.js';
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
+import { useHistory } from 'react-router';
 import React from 'react';
 import {
   BrowserRouter as Router,
@@ -11,7 +12,8 @@ import {
 
 
 const Login = () =>{
-  
+     
+  let history = useHistory();
 
     function validarUsu(e){
       e.preventDefault();

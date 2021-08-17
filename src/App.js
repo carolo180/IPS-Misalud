@@ -14,6 +14,7 @@ import {
   Switch,
   Route,
   Redirect,
+  HashRouter
   
 } from "react-router-dom";
 import AddData from './pages/Adddata';
