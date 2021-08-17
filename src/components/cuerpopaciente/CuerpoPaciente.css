@@ -226,7 +226,7 @@
         width: 100%;
       }
     #inpupac {
-        margin-left: 75%;
+        margin-left: 95%;
          min-width: 300px;
     }
     #inpupac input{
@@ -234,11 +234,11 @@
     }
     #table{
         margin-left: 3%;
-        min-width: 1100px;
+        min-width: 1350px;
     }
     #titlepaci{
         margin-top: 50px;
-       margin-left: 48%;
+       margin-left: 65%;
     }
     #bit{
         margin-left: 80px;
@@ -251,7 +251,7 @@
     }
    #elim{
     margin-top: 10px;
-    min-width: 40%;
+    max-width: 40%;
    }
 } 
   

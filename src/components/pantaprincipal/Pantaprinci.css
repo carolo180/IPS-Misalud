@@ -374,7 +374,7 @@ table td:first-child {
   }
 
 }
-@media screen and (min-width: 801px)and (max-width: 1023px)  {
+@media screen and (min-width: 801px)and (max-width: 1024px)  {
   #buscador{
     min-height: 780px;
     max-height: 780px;
@@ -388,7 +388,8 @@ table td:first-child {
   }
   .input-effect{
     width: 46%;
-    margin-top: 15%;
+    margin-top: 13%;
+    margin-left: 20%;
  }
   .guerreros{
       left: 55%;
@@ -402,14 +403,14 @@ table td:first-child {
   }
   #loguser{
     min-width: 140px;
-    margin-left: 79%;
+    margin-left: 70%;
   }
   table{
     max-width: 500px;
   }
  
 }
-@media screen and (min-width: 1024px)and (max-width: 1400px)  {
+@media screen and (min-width: 1025px)and (max-width: 1400px)  {
      #buscador{
       min-height: 760px;
       max-height: 760px;
@@ -430,6 +431,7 @@ table td:first-child {
      .input-effect{
         width: 46%;
         margin-top: 11%;
+        margin-left: 30%;
      }
     .effect-16{
        letter-spacing: 0;
@@ -480,10 +482,7 @@ table td:first-child {
       width: 400px;
       position: fixed;
    }
-   .franja2{
-    width: 100%;
-    bottom: 20%;
-  }
+
     table{
       max-width: 800px;
     }

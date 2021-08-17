@@ -111,15 +111,15 @@
 @media screen and (min-width: 1300px) and (max-width: 1440px) {
     #headtab{
         width: 100%;
-        max-width: 1200px;
+        max-width: 1700px;
      }
      #logotab{
-        margin-left: 45%;
-        width: 230px;
+        margin-left: 42%;
+        width: 255px;
     }
   
     #bottab{
-       margin-left: 15%;
+       margin-left: 25%;
         display: flex;
     }
     #bottab button{
