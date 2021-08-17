@@ -24,7 +24,7 @@ import AddregVac from './components/formunuevavacuna/Addregvac';
 function App() {
   return (
     <div className="container">
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
          <div>
            <Switch>
               
