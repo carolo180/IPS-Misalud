@@ -7,6 +7,7 @@ import React, {useEffect, useState}from "react";
 import Swal from 'sweetalert2'
 import $ from "jquery";
 import {db} from '../firebase'
+import { useHistory } from 'react-router';
 
 import {
   BrowserRouter as Router,
@@ -40,7 +41,7 @@ function Principal() {
 
    
    
-  
+   let history = useHistory();
 
     const handleSubmit5 = async(e) =>{
      e.preventDefault()
@@ -88,14 +89,14 @@ function Principal() {
            table.innerHTML += html;
 
            window.enviard = () => {
-            window.location.replace("/vacunas")
+            history.push("/vacunas")
                       
            
           }
 
           window.enviarc = () => {
             
-            window.location.replace(`/pacientes/`)
+            history.push(`/pacientes/`)
           }
 
        
