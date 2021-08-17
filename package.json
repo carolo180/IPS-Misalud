@@ -22,7 +22,7 @@
     "sweetalert2-react-content": "^4.1.1",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "",
+  "homepage": "http://carolo180.github.io/IPS-Misalud-React",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
