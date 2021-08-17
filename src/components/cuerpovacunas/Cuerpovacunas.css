@@ -1,9 +1,9 @@
-#buscador{
+#buscador2{
     margin-top: 50px;
     max-height: 40px;
     display: flex;
 }
-#buscador input{
+#buscador2 input{
     border:3px solid #2CA3AB;
     border-radius: 10px;
     margin-left: 70%;
@@ -43,7 +43,7 @@
     text-align: center;
     font-weight: bold;
     color: rgb(13, 5, 43);
-    border-bottom: 3px solid rgb(4, 77, 90);
+    border-bottom: 3px solid rgb(7, 47, 94);
     width: 270px;
     margin-left: 720px;
 }
@@ -66,8 +66,23 @@
     margin-left: 24%;
 }
 #tabvacu{
-    margin-left: 6%;
+    min-width: 200px;
+    max-width: 1500px;
+    text-align: center;
+    min-height: 150px;
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
+#tabvacu th {
+    border: 3px solid #2CA3AB;
+    height: 70px;
+    background-color: #16102e;
+    color: white;
+  }
 #tabvacu td:first-child {
     width: 80px;
     border: 1px solid #2CA3AB;
@@ -94,33 +109,36 @@
     border: 1px solid #2CA3AB;
     background-color:#cccecfef;
   }
+  #tabvacu td:nth-child(6) {
+    width: 110px;
+    border: 1px solid #2CA3AB;
+    background-color:#cccecfef;
+  }
+  #tabvacu td:nth-child(7) {
+    width: 110px;
+    border: 1px solid #2CA3AB;
+    background-color:#cccecfef;
+  }
   #tabvacu td:last-child {
     width: 190px;
     border: 1px solid #2CA3AB;
     background-color:#cccecfef;
   }
-  @media screen and (min-width: 320px) and (max-width: 1040px) {
+  @media screen and (min-width: 320px) and (max-width: 768px) {
     #tabvacu{
-        margin-left: 1%;
+        margin-left: 0%;
+        min-width: 100px;
     }
     #titlevacu h1{
-        margin-left: 350px;
+        margin-left: 85%;
     }
-     #buscador input{
-       margin-left: 45%;
+     #buscador2 input{
+       margin-left: 30%;
    }
    #pfecha{
-    margin-left: 15%;
-}
-    table{
-        margin-left: 0%;
-        padding: 5px;
-        
-    }
-    #tabla{
-        max-width: 900px;
-        margin-left: 5%;
-    }
+    margin-left: 1%;
+  }
+    
     #edit{
         margin-left: 5px;
         margin-top: 10px;
@@ -130,4 +148,77 @@
     width: 50%;
     margin-left: 10px;
    }
+   #botagregar2{
+       margin-left: 10px;
+   }
 } 
+
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+    #tabvacu{
+        margin-left: 2%;
+        max-width: 550px;
+    }
+    #titlevacu h1{
+        margin-left: 100%;
+    }
+    #buscador2 input{
+        margin-left: 40%;
+    }
+  
+   #buscar{
+       max-height: 20px;
+   }
+   #pfecha{
+    margin-left: 7%;
+    max-height: 20px;
+  }
+    
+    #edit{
+        margin-left: 5px;
+        margin-top: 10px;
+        width: 90%;
+    }
+   #elim{
+    width:90%;
+    margin-left: 5px;
+   }
+   #botagregar2{
+       margin-left: 10px;
+   }
+} 
+
+@media screen and (min-width: 1300px) and (max-width: 1440px) {
+    #tabvacu{
+        margin-left: 1%;
+        max-width: 1150px;
+    }
+    #titlevacu h1 {
+        margin-left:500px;
+    }
+    #buscador2 input{
+        margin-left: 50%;
+    }
+  
+   #buscar{
+       max-height: 20px;
+   }
+   #pfecha{
+    margin-left: 15%;
+    max-height: 20px;
+  }
+    
+    #edit{
+        margin-left: 5px;
+        width: 40%;
+    }
+   #elim{
+    width:50%;
+    margin-left: 5px;
+    max-height: 30px;
+    margin-bottom: 5px;
+   }
+   #botagregar2{
+       margin-left: 30px;
+   }
+
+}

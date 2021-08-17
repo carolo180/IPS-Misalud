@@ -13,9 +13,10 @@
     background-image: url(../../utils/imagenes/fond.jpg);
     width: 15%;
     height: 8%;
-    border-radius: 10%;
+    border-radius: 5%;
     display: flex;
-    margin-left: 82%;
+    margin-left: 80%;
+    
 }
 #loguser i{
     background-color: #faf6f4;
@@ -29,6 +30,13 @@
     margin-top: 8px;
     font-size: 1.7rem;
     border: 3px solid #ca5714;
+    
+}
+#editper i{
+  background: none;
+  font-size: 1rem;
+  border: none;
+
 }
 
 #profe{
@@ -52,21 +60,19 @@
  z-index: -1;
  position: absolute;
  right: 2%;
- bottom: 2%;
+ bottom: 5%;
  width: 450px;
  transform: rotate(8deg);
 }
 #footerprinci{
-    margin-top: 570px;
+   margin-top: 424px;
+   bottom: 0%;
 }
-#franjaazul{
-    background-color: rgb(31, 174, 179);
-    height: 1vh;
-    width: 80vw;
-}
+
 
 .franja2{
     width: 80vw;
+    bottom: 0%;
  }
 
  .boton_desple{
@@ -79,8 +85,8 @@
 
 .input-effect{
     float: left;
-    width: 32%;
-    margin-top: 150px;
+    width: 29%;
+    margin-top: 100px;
     margin-left: 31%;
     position: relative;
     
@@ -105,34 +111,177 @@
     width: 0;
     height: 4px;
     background-color: rgb(26, 205, 211);
-    transition: 0.4s;
+    transition: 0.6s;
    }
 
 .effect-16:focus ~ .focus-border,.has-content.effect-16 ~ .focus-border{
         width: 100%;
-        transition: 0.4s;
+        transition: 0.6s;
+  }
+
+  /*table{
+    min-width: 200px;
+    max-width: 1500px;
+    text-align: center;
+    min-height: 150px;
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+*/
+table tr{
+   
+    background-color:#cccecfef;
+    text-align: center;
+    min-width: 2000px;
+    font-weight: 900;
+    font-size: 1.1rem;
+    border: 2px solid #2CA3AB;
+}
+
+table th {
+    border: 1px solid #181138;
+    background-color: #2CA3AB;
+    color: #181138;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.2rem;
   }
   
- @media screen and (max-width: 800px) {
+table td:first-child {
+   
+    border: 1px solid #181138;
+     height: 60px;
+    text-align: center;
+    width: 10px;
+}
+ table td:nth-child(3) {
+    
+   
+    border: 1px solid #181138;
+  }
+  table td:nth-child(4) {
+ 
+  
+    border: 1px solid #181138;
+  }
+  table td:nth-child(5) {
+     border: 1px solid #181138;
+  }
+  table td:nth-child(6) {
+    
+    border: 1px solid #181138;
+  }
+ 
+ table td:last-child {
+    align-items: center;
+    border: 1px solid #181138;
+  }
+ 
+   #btpaci{
+    background-color: #e9e7f1;
+    color: #181138;
+   
+     margin-top: 20px;
+       width: 60px;
+      height: 55px;
+      border: 4px solid #2CA3AB;
+      border-radius: 10px;
+      font-weight: 500;
+      margin-left: 10px;
+      font-size: 1.2rem;
+    }
+    #btpaci:hover{
+      background-color: #181138;
+      color: white;
+      
+      }
+
+   td p{
+     padding-top: 5px;
+     color: #ca5714;
+     font-weight: 900;
+       
+   }
+  
+
+  #lookstart{
+      background-color: #181138;
+      color: white;
+      margin-top: 100px;
+       width: 60px;
+      height: 45px;
+      border: 4px solid #2CA3AB;
+      border-radius: 10px;
+      font-weight: 500;
+      margin-left: 10px;
+      font-size: 1.2rem;
+      
+    }
+
+    #lookstart:hover{
+        background-color: #cccecfef;
+        color: black;
+        border: 4px solid #2CA3AB;
+        transition-property:initial;   
+        transition-duration: 1s;
+        font-weight: 900;
+        font-size: 1.3rem;
+     }
+
+    #refresh{
+        background-color: #181138;
+        color: white;
+        margin-top: 100px;
+         width: 60px;
+        height: 45px;
+        border: 4px solid #2CA3AB;
+        border-radius: 10px;
+        font-weight: 500;
+        margin-left: 7px;
+        font-size: 1.2rem;
+
+     }
+
+     #refresh:hover{
+        background-color: #cccecfef;
+        color: black;
+        border: 4px solid #2CA3AB;
+        transition-property:initial;   
+        transition-duration: 1s;
+        font-weight: 900;
+        font-size: 1.3rem;
+     }
+  
+  #buttab{
+      display: flex;
+    }
+  
+  
+ @media screen and (max-width: 448px) {
     #buscador1{
         height: 100%;
         width: 100%;
         min-height: 1900px;
+        min-width: 670px;
       }
     #pantalla{
         height: 100%;
         width: 100%;
         min-height: 2000px;
         background-color: rgba(237, 236, 235, 0.8);
+        min-width: 670px;
     }
     .guerreros{
-        left: 70%;
+        left: 50%;
         top:90%;
      }
      #footerprinci{
        display: none;
-       
-    }
+      }
     
     .input-effect{
         width: 40%;
@@ -161,55 +310,183 @@
     }
     #loguser{
         min-width: 150px;
-        margin-left: 80%;
+        margin-left: 78%;
+    }
+    table{
+      max-width: 600px;
     }
 
 }
-@media screen and (min-width: 1024px)and (max-width: 1400px)  {
+@media screen and (min-width: 450px) and (max-width: 800px) {
+  #buscador1{
+      height: 100%;
+      width: 100%;
+      min-height: 1900px;
+       min-width: 1000px;
+    }
+  #pantalla{
+      height: 100%;
+      width: 100%;
+      min-height: 2000px;
+      background-color: rgba(237, 236, 235, 0.8);
+      min-width:1000px;
+  }
+  .guerreros{
+      left: 70%;
+      top:90%;
+   }
+   #footerprinci{
+     display: none;
+     
+  }
   
+  .input-effect{
+      width: 40%;
+      margin-top: 25%;
+   }
+  .effect-16{
+     letter-spacing: 0;
+      font-size: 1.2rem;
+   }
+  .boton_desple{
+      display: block;
+      width: 100%;
+      background-color: #161624;
+      min-height: 70px;
+ }
+  .bt-menu{
+      display: block;
+      padding: 5px;
+      color: beige;
+      margin-left: 2px;
+  }
+  .boton_desple span{
+      float: left;
+      font-size: 3rem;
+      
+  }
+  #loguser{
+      min-width: 150px;
+      margin-left: 78%;
+  }
+  table{
+    max-width: 800px;
+  }
+
+}
+@media screen and (min-width: 801px)and (max-width: 1023px)  {
+  #buscador{
+    min-height: 780px;
+    max-height: 780px;
+   }
+  #pantalla{
+      height: 100%;
+      width: 100%;
+      background-color: rgba(237, 236, 235, 0.8);
+      min-height: 780px;
+      max-height: 780px;
+  }
+  .input-effect{
+    width: 46%;
+    margin-top: 15%;
+ }
+  .guerreros{
+      left: 55%;
+      top:35%;
+      width: 400px;
+      position: fixed;
+   }
+   #footerprinci{
+   margin-bottom: 0%;
+    width: 100%;
+  }
+  #loguser{
+    min-width: 140px;
+    margin-left: 79%;
+  }
+  table{
+    max-width: 500px;
+  }
+ 
+}
+@media screen and (min-width: 1024px)and (max-width: 1400px)  {
+     #buscador{
+      min-height: 760px;
+      max-height: 760px;
+     }
     #pantalla{
         height: 100%;
         width: 100%;
         background-color: rgba(237, 236, 235, 0.8);
+        min-height: 760px;
+        max-height: 760px;
     }
     .guerreros{
         left: 65%;
-        top:49%;
+        top:39%;
         width: 400px;
+        position: fixed;
      }
      .input-effect{
         width: 46%;
-        margin-top: 24%;
+        margin-top: 11%;
      }
     .effect-16{
        letter-spacing: 0;
         font-size: 1.2rem;
      }
      #footerprinci{
-        margin-top: 627px;
+      bottom: 0%;
         width: 100%;
     }
-    #franjaazul{
-        width: 770px;
-    }
+   
     .franja2{
-        width: 770px;
+        width: 100%;
      }
      #loguser{
          min-width: 150px;
          margin-left: 78%;
      }
+     table{
+      max-width: 500px;
+     }
     
 }
-@media screen and (min-width: 1400px)and (max-width: 1440px)  {
+
+@media screen and (min-width: 1401px)and (max-width: 1500px)  {
+
+  #buscador{
+    min-height: 780px;
+    max-height: 780px;
+   }
+  #pantalla{
+      height: 100%;
+      width: 100%;
+      background-color: rgba(237, 236, 235, 0.8);
+      min-height: 780px;
+      max-height: 780px;
+  }
     #footerprinci{
-        margin-top: 725px;
+        bottom: 0%;
         width: 100%;
     }
     .input-effect{
         width: 40%;
-        margin-top: 18%;
+        margin-top: 8%;
      }
+     .guerreros{
+      left: 65%;
+      top:38%;
+      width: 400px;
+      position: fixed;
+   }
+   .franja2{
+    width: 100%;
+    bottom: 20%;
+  }
+    table{
+      max-width: 800px;
+    }
    
 
 }

@@ -3,7 +3,7 @@
     width: 22%;
     height: 100vh;
     max-height: 840px;
-}
+    }
 .bot_cerra{
     display: none;
 
@@ -57,24 +57,39 @@
     }
     .logop{
         margin-left: 15%;
+        margin-bottom: 15px;
         
+        
+    }
+    #botonmenu{
+        margin-top: 0%;
     }
        
 }
-@media screen and (min-width: 768px) and (max-width: 800px) {
+
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+    #menulatera{
+        background-color: #161624;
+        width: 31%;
+        height: 100%;
+        min-height: 780px;
+      
+    }
     .logop{
-        padding-top: 10%;
+        padding-top: 25%;
+        padding-left: 0;
         
     }
 
 }
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
     #menulatera{
         background-color: #161624;
-        width: 30%;
+        width: 36%;
         height: 100%;
-        min-height: 950px;
-        max-height: 950px;
+        min-height: 760px;
+        max-height: 760px;
+      
     }
     .logop{
         padding-top: 25%;

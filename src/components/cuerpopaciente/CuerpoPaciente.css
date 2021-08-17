@@ -6,7 +6,7 @@
     font-weight: 700;
     font-size: 1.1rem;
     color: white;
-    margin-left: 2%;
+    margin-left: 5%;
 }
 #botagregar:hover{
     background-color:white;
@@ -25,18 +25,21 @@
     display: flex;
     margin-left: 135px;
 }
+#inpupac{
+     display: flex;
+}
 #inpupac input{
-    border:2px solid #252f68;
-    margin-left: 1050px;
+     margin-left: 50px;
     border-radius: 10px;
-    min-height: 35px;
+    min-height: 40px;
+    border:3px solid #2CA3AB;
 }
 #buscar{
     background-color: rgb(226, 220, 214);
     border-radius: 10px;
     min-width: 45px;
-    min-height: 35px;
-    border: 2px solid rgb(13, 5, 43);
+    min-height: 40px;
+    border:4px solid #2CA3AB;
     margin-left: 1px;
 }
 #buscar:hover{
@@ -51,59 +54,67 @@
     color: rgb(13, 5, 43);
     border-bottom: 3px solid rgb(4, 77, 90);
     width: 210px;
-    margin-left: 42%;
+    margin-left: 20%;
 }
 /*tabla*/
-table{
+#table{
     min-width: 200px;
     max-width: 1500px;
-    max-height: 500px;
-    min-height: 500px;
+    text-align: center;
+    min-height: 150px;
     width: 100%;
-    margin-left: 8%;
+    margin-left: 5%;
     margin-top: 50px;
     margin-bottom: 100px;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
- th {
+#table th {
     border: 3px solid #2CA3AB;
-    height: 50px;
-    background-color: #1d1b45;
+    height: 70px;
+    background-color: #16102e;
     color: white;
-    text-align: center;
-}
+  }
 
-table td:first-child {
-    width: 80px;
+#table td:first-child {
+    width: 10px;
     border: 1px solid #2CA3AB;
     background-color:#cccecfef;
-    height: 50px;
+    height: 60px;
  }
-  table td:nth-child(2) {
-    width: 60px;
+  #table td:nth-child(2) {
+    width: 10px;
     border: 1px solid #2CA3AB;
     background-color:#cccecfef;
+    
   }
-  table td:nth-child(3) {
-    width: 200px;
-    border: 1px solid #2CA3AB;
-    background-color:#cccecfef;
-  }
-  table td:nth-child(4) {
-    width: 100px;
-    border: 1px solid #2CA3AB;
-    background-color:#cccecfef;
-  }
-  table td:last-child {
+ #table td:nth-child(3) {
     width: 150px;
     border: 1px solid #2CA3AB;
     background-color:#cccecfef;
+  }
+  #table td:nth-child(4) {
+    width: 150px;
+    border: 1px solid #2CA3AB;
+    background-color:#cccecfef;
+  }
+  #table td:nth-child(5) {
+    width: 30px;
+    border: 1px solid #2CA3AB;
+    background-color:#cccecfef;
+  }
+ #table td:last-child {
+    width: 150px;
+    border: 1px solid #2CA3AB;
+    background-color:#cccecfef;
+    align-items: center;
   }
   #edit{
       background-color: #2CA3AB;
       color: black;
       width: 35%;
       min-height: 40px;
-      margin-left: 40px;
+      margin-left: 20px;
       border-radius: 5px;
       font-weight: bold;
       font-size: 1.1rem;
@@ -121,8 +132,7 @@ table td:first-child {
     color: rgb(243, 234, 234);
     width: 35%;
     min-height: 40px;
-    max-height: 40px;
-    margin-left: 25px;
+    margin-left: 10px;
     border-radius: 5px;
     font-weight: 600;
     font-size: 1.1rem;
@@ -135,32 +145,148 @@ table td:first-child {
       transition-property:initial;   
       transition-duration: 1s;
   }
-  @media screen and (min-width: 320px) and (max-width: 1040px) {
+  @media screen and (min-width: 320px) and (max-width: 776px) {
+
+    #pacprincipal{
+        max-width: 560px;
+        width: 100%;
+      }
+    #inpupac {
+        margin-left: 9%;
+         min-width: 300px;
+    }
     #inpupac input{
-        margin-left: 480px;
+        margin-left: 20%;
+    }
+    #table{
+        margin-left: 5%;
+    }
+    #titlepaci{
+        margin-top: 50px;
+        margin-left: 25%;
     }
     #bit{
         margin-left: 80px;
     }
-    table{
-        margin-left: 0%;
-        padding: 5px;
-        
-    }
-    #tabla{
-        max-width: 900px;
-        margin-left: 5%;
-    }
+   
+   
     #edit{
-        margin-left: 5px;
-        margin-top: 10px;
-        width: 40%;
+       margin-top: 10px;
+        min-width: 80%;
     }
    #elim{
-    width: 50%;
-    margin-left: 10px;
+    margin-top: 10px;
+    min-width: 80%;
+   }
+} 
+
+@media screen and (min-width: 777px) and (max-width: 1024px) {
+
+    #pacprincipal{
+        max-width: 860px;
+        width: 100%;
+      }
+    #inpupac {
+        margin-left: 35%;
+         min-width: 300px;
+    }
+    #inpupac input{
+        margin-left: 20%;
+    }
+    #table{
+        margin-left: 1%;
+        max-width: 800px;
+    }
+    #titlepaci{
+        margin-top: 50px;
+        margin-left: 20%;
+    }
+    #bit{
+        margin-left: 80px;
+    }
+   
+   
+    #edit{
+       margin-top: 10px;
+        min-width: 40%;
+    }
+   #elim{
+    margin-top: 10px;
+    min-width: 40%;
+   }
+} 
+
+
+
+
+@media screen and (min-width: 1300px) and (max-width: 1440px) {
+    #pacprincipal{
+        max-width: 860px;
+        min-width: 830px;
+        width: 100%;
+      }
+    #inpupac {
+        margin-left: 75%;
+         min-width: 300px;
+    }
+    #inpupac input{
+        margin-left: 20%;
+    }
+    #table{
+        margin-left: 3%;
+        min-width: 1100px;
+    }
+    #titlepaci{
+        margin-top: 50px;
+       margin-left: 48%;
+    }
+    #bit{
+        margin-left: 80px;
+    }
+   
+   
+    #edit{
+       margin-top: 10px;
+        min-width: 40%;
+    }
+   #elim{
+    margin-top: 10px;
+    min-width: 40%;
    }
 } 
   
-
-  
+@media screen and (min-width: 1541px) and (max-width: 2500px) {
+    #pacprincipal{
+        max-width: 1900px;
+        min-width: 830px;
+        width: 100%;
+      }
+    #inpupac {
+        margin-left: 65%;
+         min-width: 300px;
+    }
+    #inpupac input{
+        margin-left: 20%;
+    }
+    #table{
+        margin-left: 3%;
+        min-width: 1600px;
+    }
+    #titlepaci{
+        margin-top: 50px;
+       margin-left: 30%;
+    }
+    #bit{
+        margin-left: 80px;
+    }
+   
+   
+    #edit{
+       margin-top: 10px;
+        min-width: 40%;
+    }
+   #elim{
+    margin-top: 10px;
+    min-width: 40%;
+   }
+} 

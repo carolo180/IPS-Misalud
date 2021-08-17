@@ -1,14 +1,17 @@
-import FormularioNuevo from './Formu_nuevo'
-import {db} from '../firebase'
+import FormularioVacunacion from './Formuvacuna'
 import Swal from 'sweetalert2'
+import {db} from '../firebase'
+import { toast } from 'react-toastify'
 import React, {useEffect, useState}from "react";
+import { Redirect, useParams } from 'react-router';
 
 
-
-function AddData() {
-    const [pacientesdata, setData] = useState([])
-    const [currentId, setCurrentId] = useState('');
-    const  identificador = localStorage.getItem("identificador")
+function AddVacu() {
+  const [pacientesdata, setData] = useState([])
+  const [currentId, setCurrentId] = useState('');
+  const  identificador = localStorage.getItem("identificador")
+   
+    
 
     const addOrEditData = async (dataObject) => {
       if (currentId === "") { 
@@ -27,7 +30,7 @@ function AddData() {
           Swal.fire(
             'Registro agregado!',
          )
-          window.location.href=("/pacientes")
+          window.location.href=("/vacunas")
         }
       })
     }
@@ -35,9 +38,7 @@ function AddData() {
       await db.collection('pacientesdata').doc(currentId).update(dataObject);
       Swal.fire({
         title: 'Desea actualizar el registro?',
-        imageUrl: 'https://forjaempresas.com/wp-content/uploads/2020/08/Logos-01-1.png',
-        imageWidth: 300,
-        imageHeight: 70,
+        icon: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#c55110',
         cancelButtonColor: '#072f5e',
@@ -49,7 +50,7 @@ function AddData() {
           Swal.fire(
             'Registro actualizado!',
          )
-          window.location.href=("/pacientes")
+          window.location.href=("/vacunas")
         }
       });
       setCurrentId('');
@@ -65,11 +66,13 @@ useEffect(() => {
 
 },[])
 
+    
+   
   return (
     <div className="container">
-         <FormularioNuevo {...{addOrEditData, currentId:identificador, pacientesdata }} />
+         <FormularioVacunacion {...{addOrEditData, currentId:identificador, pacientesdata }} />
     </div>
   );
 }
 
-export default AddData;
+export default AddVacu;

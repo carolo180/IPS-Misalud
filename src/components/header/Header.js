@@ -24,7 +24,7 @@ function Header() {
           </div>
           <div id="ticono">
           <Link to="/login">
-          <button id="ingreso1"><p>Iniciar sesión <i className="far fa-user"></i></p></button>
+          <button id="ingreso1"><p>Iniciar sesión <i class="fas fa-user-md"></i></p></button>
           </Link>
           </div>
           </div>

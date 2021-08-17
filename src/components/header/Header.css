@@ -85,14 +85,15 @@
     width: 100%;
     min-height: 47px;
     height: 100%;
-    border-radius: 50px;
+    border-radius: 20px;
     font-family: "Poppins", Sans-serif;
     margin-left: 180px;
+    
  }
  #ingreso1 p{
     font-size: 1.3rem;
-    padding-top: 8px;
-    font-weight: 700;
+    padding-top: 10px;
+    font-weight: 900;
     color: white;;
  }
  #ingreso1:hover{
@@ -101,10 +102,7 @@
     transition-property:initial;   
     transition-duration: 1s;
    }
- #ingreso1 p:hover{
-    color:#062131;
-    font-weight: 900;
-   }
+
 
 @media screen and (max-width: 1024px) {
     header{

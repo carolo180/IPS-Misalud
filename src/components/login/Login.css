@@ -5,24 +5,30 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin: auto;
-    padding: 100px;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+       
 }
 #volver{
     background-color:rgba(29, 33, 83, 0.904);
     color: white;
     min-width: 150px;
     min-height: 40px;
-    margin-bottom: 10px;
+    margin-top: 4%;
     margin-left: 430px;
     font-weight: bold;
     border-radius: 10px;
     border:2px solid rgb(10, 173, 238);
 }
 #volver:hover{
-    background-color:rgb(10, 173, 238);
+    background-color: rgb(168, 221, 224);
     border: 3px solid rgb(32, 32, 82);
     font-size: 1.1rem;
+    color: rgb(32, 32, 82);
+    font-weight: 900;
+    transition-property:initial;   
+    transition-duration: 1s;  
 }
 
 #slogan{
@@ -30,24 +36,30 @@
     text-align: center;
     padding: 20px;
     font-weight: 700;
+    font-size: 1.2rem;
 }
 
 .log{
-    height: 100%;
+    height: 70%;
     width: 600px;
     margin: auto;
     box-shadow:
        inset 0 -3em 3em rgba(0,0,0,0.1),
              0.3em 0.3em 1em rgba(0,0,0,0.3);
     border-radius: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    
 }
 
 img.logol{
     align-content: center;
+    width: 350px;
 }
 
 .ingresa{
-    background-color: rgba(44, 163, 171, 0.7);
+    background-color: rgb(168, 221, 224);
     height: 300px;
     margin: auto;
     text-align: center;
@@ -65,12 +77,13 @@ form{
 }
 
 .inputs input{
-    background-color: #73bffa;
+    background-color: rgb(233, 246, 247);
     border-radius: 20px;
     height: 50px;
     width: 400px;
     text-align: center;
     margin: auto;
+    border: 2px solid  rgb(168, 221, 224);
 }
 
 #exampleInputEmail1{
@@ -98,15 +111,19 @@ form{
 
 .btn-primary{
     background-color:  #C55110;
-    border-color:  #C55110;
-    height: 50px;
-    width: 200px;
-    border-radius: 20px;
+    border-color: 1px solid rgb(18, 18, 48);
+    min-width: 150px;
+    min-height: 40px;
+    border-radius: 10px;
 }
 
 .btn-primary:hover{
-   background-color:#2CA3AB;
-   border-color:  #2ca3ab;
+    background-color: rgb(168, 221, 224);
+    border-color: rgb(32, 32, 82);
+   color:rgb(32, 32, 82);
+   font-weight: bold;
+   transition-property:initial;   
+    transition-duration: 1s; 
 }
 
 .form-check a{
@@ -115,7 +132,7 @@ form{
 }
 
 .form-check a:hover{
-    color: #2CA3AB
+    color: #2CA3AB;
 }
 input[type=email]:focus,input[type=password]:focus{
 	outline: none;
@@ -123,6 +140,12 @@ input[type=email]:focus,input[type=password]:focus{
 	padding-right: 30px;
 	box-shadow: 0px 0px 18px #fa2b06; 
 }
+
+#labl{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
 @media screen and (max-width: 800px){
     .inputs label {
       text-align:center;
@@ -139,6 +162,8 @@ input[type=email]:focus,input[type=password]:focus{
     height: auto;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100vw;
+    min-width: 600px;
     }
 
     .log{

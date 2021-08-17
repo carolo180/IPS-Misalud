@@ -17,6 +17,9 @@ import {
   
 } from "react-router-dom";
 import AddData from './pages/Adddata';
+import AddVacu from './pages/Addvacu';
+import Addregist from './components/formunuevo/Addregist';
+import AddregVac from './components/formunuevavacuna/Addregvac';
 
 function App() {
   return (
@@ -49,23 +52,33 @@ function App() {
              <Vacunas />
             </Route>
 
+            <Route  path="/formupaciente" >
+             <Addregist />
+            </Route>
+
+            <Route exact path="/formunuevo" >
+             <AddData />
+            </Route>
+
+            <Route exact path="/formunuevo/:identificador" >
+             <AddData />
+            </Route>
+
+            <Route  path="/formuregvac" >
+             <AddregVac />
+            </Route>
+
             <Route  path="/formuvacuna" >
-             <FormularioVacunacion />
+             <AddVacu />
             </Route>
 
-            <Route  path="/formunuevo" >
-             <AddData />
-            </Route>
-
-            <Route  path="/formunuevo/:id" >
-             <AddData />
+            <Route  path="/formuvacuna/:id" >
+             <AddVacu />
             </Route>
                 
           </Switch>
         </div>
-        <ToastContainer />
-      
-     
+           
       </Router>
         
     </div>

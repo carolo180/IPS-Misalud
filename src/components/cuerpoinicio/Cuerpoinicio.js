@@ -9,7 +9,7 @@ import {
   
   function CuerpoInicio() {
     return (
-      <div className="container">
+     
        <section id="todoini">
             <section id="cuerpo">
               <div id="banner">
@@ -17,7 +17,7 @@ import {
                   <h2>Unidos ganaremos la batalla</h2>
                   <h1>Covid-19</h1>
                   <Link to="/login">
-                  <button id="ingreso"><p>Iniciar sesión <i className="far fa-user"></i></p></button>
+                  <button id="ingreso"><p>Iniciar sesión <i class="fas fa-user-md"></i></p></button>
                   </Link>
                   </div>
               </div>
@@ -67,8 +67,7 @@ import {
                   La Hoja de ruta del SAGE de la OMS para el establecimiento de prioridades en el uso de vacunas contra la COVID-19 sugiere estrategias
                   de salud pública y grupos destinatarios prioritarios para niveles de disponibilidad de vacunas y entornos epidemiológicos diferentes.
                     Los ejemplos de grupos destinatarios prioritarios incluyen a los profesionales sanitarios y asistentes sociales de primera línea expuestos
-                    a altos riesgos de infección, las personas mayores, y toda persona que corra alto riesgo de defunción por trastornos preexistentes, por ejemplo, 
-                    cardiopatía coronaria y diabetes.  </p>
+                    a altos riesgos de infección.  </p>
             </div>
             <div id="menu2">
               <a href="#menu2">Seguridad de las vacunas contra el COVID-19 | CDC</a>
@@ -118,9 +117,7 @@ import {
 
                           ¿Qué debo hacer frente a algún efecto adverso?
                           Reportarlo directamente a tu prestador de salud o en el trámite en línea. También podés
-                          hacerlo a través de la App Coronavirus (disponible para Android e Ios). La información que 
-                          brindes en la aplicación se enviará al prestador de salud y él notificará al Ministerio de 
-                            Salud Pública.  </p>
+                          hacerlo a través de la App Coronavirus (disponible para Android e Ios).   </p>
             </div>
             <div id="menu4">
               <a href="#menu4"> Lineamiento técnico para la gestión de residuos de vacunación- Covid 19.</a>
@@ -160,13 +157,12 @@ import {
                   con detergente y agua. Lávelos a un mínimo de 60 ° C con un detergente doméstico convencional.
                   Es muy importante evitar los contactos y mantener todas las medidas de higiene personal recomendadas (para el enfermo y los convivientes).
                   Se llevará a cabo un seguimiento telefónico de los síntomas hasta el alta.
-                  Ante la presencia de cualquier síntoma o malestar diferente comunicate al 419-5300 Capital y GBA) o 0800-999-2064 (interior).
-                  Riesgo de vida/ emergencia 4129-5100 (Capital y GBA) o 0800-999-2064 (interior). </p>
+                  </p>
             </div>
 
           </section>
      </section>
-     </div>
+   
     );
   }
 export default CuerpoInicio;
