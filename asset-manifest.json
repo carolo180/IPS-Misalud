@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/IPS-Misalud-React/static/css/main.3bdf9691.chunk.css",
+    "main.js": "/IPS-Misalud-React/static/js/main.711de22d.chunk.js",
+    "main.js.map": "/IPS-Misalud-React/static/js/main.711de22d.chunk.js.map",
+    "runtime-main.js": "/IPS-Misalud-React/static/js/runtime-main.167f373a.js",
+    "runtime-main.js.map": "/IPS-Misalud-React/static/js/runtime-main.167f373a.js.map",
+    "static/css/2.97503911.chunk.css": "/IPS-Misalud-React/static/css/2.97503911.chunk.css",
+    "static/js/2.1daa11aa.chunk.js": "/IPS-Misalud-React/static/js/2.1daa11aa.chunk.js",
+    "static/js/2.1daa11aa.chunk.js.map": "/IPS-Misalud-React/static/js/2.1daa11aa.chunk.js.map",
+    "static/js/3.e2d971eb.chunk.js": "/IPS-Misalud-React/static/js/3.e2d971eb.chunk.js",
+    "static/js/3.e2d971eb.chunk.js.map": "/IPS-Misalud-React/static/js/3.e2d971eb.chunk.js.map",
+    "index.html": "/IPS-Misalud-React/index.html",
+    "static/css/2.97503911.chunk.css.map": "/IPS-Misalud-React/static/css/2.97503911.chunk.css.map",
+    "static/css/main.3bdf9691.chunk.css.map": "/IPS-Misalud-React/static/css/main.3bdf9691.chunk.css.map",
+    "static/js/2.1daa11aa.chunk.js.LICENSE.txt": "/IPS-Misalud-React/static/js/2.1daa11aa.chunk.js.LICENSE.txt",
+    "static/media/Login.css": "/IPS-Misalud-React/static/media/all.0e7ffacb.png",
+    "static/media/Cuerpoinicio.css": "/IPS-Misalud-React/static/media/medico.19775e64.png",
+    "static/media/Pantaprinci.css": "/IPS-Misalud-React/static/media/fond.6b4c1be3.jpg",
+    "static/media/franja.eac98cd2.png": "/IPS-Misalud-React/static/media/franja.eac98cd2.png",
+    "static/media/Formpaciente.css": "/IPS-Misalud-React/static/media/man-user.80f5bb20.svg",
+    "static/media/guerreros.fd707292.png": "/IPS-Misalud-React/static/media/guerreros.fd707292.png",
+    "static/media/logoforja.898a07f3.png": "/IPS-Misalud-React/static/media/logoforja.898a07f3.png",
+    "static/media/oms.36d426c5.png": "/IPS-Misalud-React/static/media/oms.36d426c5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.167f373a.js",
+    "static/css/2.97503911.chunk.css",
+    "static/js/2.1daa11aa.chunk.js",
+    "static/css/main.3bdf9691.chunk.css",
+    "static/js/main.711de22d.chunk.js"
+  ]
+}
