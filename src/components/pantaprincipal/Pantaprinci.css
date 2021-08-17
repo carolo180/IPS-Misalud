@@ -412,20 +412,18 @@ table td:first-child {
 }
 @media screen and (min-width: 1025px)and (max-width: 1400px)  {
      #buscador{
-      min-height: 760px;
-      max-height: 760px;
+     height: 100%;
      }
     #pantalla{
         height: 100%;
         width: 100%;
         background-color: rgba(237, 236, 235, 0.8);
-        min-height: 760px;
-        max-height: 760px;
+     
     }
     .guerreros{
-        left: 65%;
-        top:39%;
-        width: 400px;
+        left: 69%;
+        top:40%;
+        width: 300px;
         position: fixed;
      }
      .input-effect{
@@ -439,11 +437,12 @@ table td:first-child {
      }
      #footerprinci{
       bottom: 0%;
-        width: 100%;
+      width: 100%;
     }
    
     .franja2{
         width: 100%;
+        bottom: 0%;
      }
      #loguser{
          min-width: 150px;
