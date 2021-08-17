@@ -24,7 +24,7 @@ import AddregVac from './components/formunuevavacuna/Addregvac';
 function App() {
   return (
     <div className="container">
-        <Router basename={process.env.PUBLIC_URL}>
+        <HashRouter basename='/'>
          <div>
            <Switch>
               
@@ -79,7 +79,7 @@ function App() {
           </Switch>
         </div>
            
-      </Router>
+      </HashRouter>
         
     </div>
   );

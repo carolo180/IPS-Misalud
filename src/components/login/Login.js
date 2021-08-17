@@ -87,7 +87,7 @@ const Login = () =>{
               clearInterval(timerInterval)
             }
           })
-         window.location.href=("/principal");
+          history.push("/principal");
         }
               
         else if (usu==="carolo" & pas!=="carol123"){
